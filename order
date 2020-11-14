@@ -1,0 +1,5 @@
+python train_network.py --style "examples/1.jpg" --train-path "train"
+
+python stylize_image.py --content "examples/lion.jpg" --output-path "1.jpg" --network "network1"
+
+python stylize_video.py --video-path "camera" --output-path "1.jpg" --network "network1"
