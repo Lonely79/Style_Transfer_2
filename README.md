@@ -3,14 +3,13 @@
 The code of this project is a simple implementation of the paper————【ECCV-2016】Perceptual Losses for Real-Time Style Transfer
 Paper Address:https://arxiv.org/pdf/1603.08155.pdf
 
-##Environment
----------------------
+## Environment
 
 Because the VGG19 parameter file is relatively large, the resource has been put on CSDN for free, please put it under the vgg19 folder after downloading, please see the detailed address：https://download.csdn.net/download/qq_40298054/13082438
 
-Parametric model trained with Van Gogh’s starry sky as a style picture:
-##File description
--------
+Parametric model trained with Van Gogh’s starry sky as a style picture，please put it under the network folder after downloading:
+
+## File description
 
 For a detailed explanation of the code, please see：https://blog.csdn.net/qq_40298054/article/details/109599354
 ## Running the code
