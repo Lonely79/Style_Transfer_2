@@ -11,7 +11,7 @@ import transform_network
 import cv2 as cv
 
 NETWORK_PATH = 'network'
-OUTPUT_PATH = "yolo_out_py.mov"
+OUTPUT_PATH = "output.avi"
 
 
 def build_parser():
