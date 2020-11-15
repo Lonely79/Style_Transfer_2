@@ -73,6 +73,13 @@ def main():
         while cv.waitKey(1) < 0:
             # 读取一帧
             hasFrame, frame = cap.read()
+            
+             # 结束运行
+            if not hasFrame:
+                print("Done processing !!!")
+                print("Output file is stored as ", outputFile)
+                cv.waitKey(3000)
+                break
 
             frame = np.asarray([frame])
             prediction = sess.run(network, feed_dict={img_placeholder: frame})
